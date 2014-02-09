@@ -55,5 +55,10 @@ function dashboard_redirect($url) {
 }
 add_filter('login_redirect', 'dashboard_redirect'); 
 
+// register the menu
+function register_my_menu() {
+  register_nav_menu('main-menu',__( 'Main Menu' ));
+}
+add_action( 'init', 'register_my_menu' );
 
 ?>
