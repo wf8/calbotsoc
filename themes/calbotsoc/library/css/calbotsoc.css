@@ -3,13 +3,14 @@ body {
 	padding-bottom: 60px;
 }
 
-a, a:hover {
-	color: green;
+a:hover {
+    font-weight: 400;
+	color: #999999;
 	text-decoration: none;
 }
 
 
-h1, h2, h3, a, a:hover {
+h1, h2, h3, a {
 	color: #333333;
 	font-weight: 400;
 	text-decoration: none;
