@@ -14,7 +14,7 @@
 					</div>
 					
 					<div class="span7 fb-footer">
-	  					<a title="http://www.facebook.com/pages/California-Botanical-Society/178419098859994" href="http://www.facebook.com/pages/California-Botanical-Society/178419098859994">
+	  					<a href="http://www.facebook.com/calbotsociety/">
 	  					<img src="<?php echo get_template_directory_uri(); ?>/library/img/fb_icon_325x325.png" width="30">
 	  					<strong>CBS on Facebook!</strong></a>
 					</div>
