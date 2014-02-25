@@ -37,8 +37,17 @@
 
       				<div class="masthead">
         				<h2><a href="/"><img src="<?php echo get_template_directory_uri(); ?>/library/img/MadronoImage.jpg" width="50">California Botanical Society</a></h2>
-						<img class="img-rounded banner" src="<?php echo get_template_directory_uri(); ?>/library/img/banner1.jpg">
-
+						
+						<?php
+							$page_name = $post->post_name;
+							$banner_image = get_template_directory_uri() . "/library/img/banner-" . $page_name . ".jpg"; 
+							
+							if (!file_exists("./wp-content/themes/calbotsoc/library/img/banner-" . $page_name . ".jpg"))
+								$banner_image = get_template_directory_uri() . "/library/img/banner-main.jpg";
+						?>
+						<div class="text-center">						
+							<img class="img-rounded banner" src="<?php echo $banner_image; ?>">
+						</div>
 
 						<nav role="navigation">
 						
