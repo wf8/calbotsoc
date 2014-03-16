@@ -10,11 +10,18 @@ a:hover {
 }
 
 
-h1, h2, h3, a {
+a {
+	color: #666F66;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+h1, h2, h3, h1 a, h2 a, h3 a {
 	color: #333333;
 	font-weight: 400;
 	text-decoration: none;
 }
+
 
 .container {
         background-color: white;
