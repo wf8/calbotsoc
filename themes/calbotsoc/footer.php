@@ -17,6 +17,20 @@
 	  					<a href="http://www.facebook.com/calbotsociety/">
 	  					<img src="<?php echo get_template_directory_uri(); ?>/library/img/fb_icon_325x325.png" width="30">
 	  					<strong>CBS on Facebook!</strong></a>
+						<br><br><br>
+                                                <?php 
+							$page_name = $post->post_name;
+							if ($page_name == "about" || $page_name == "events" || $page_name == "membership")
+								$photographer = "Tom Schweich";
+							else if ($page_name == "madrono")
+								$photographer = "Scott Simono";
+							else if ($page_name == "grants" || $page_name == "grants-spanish" || $page_name == "grants-english")
+								$photographer = "Debra Valov";
+							else
+								$photographer = "Ana Penny";
+						?>
+						Banner photo: <?php echo $photographer; ?>
+
 					</div>
 					
       			</div>
