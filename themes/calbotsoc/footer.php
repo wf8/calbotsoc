@@ -24,7 +24,7 @@
 								$photographer = "Tom Schweich";
 							else if ($page_name == "madrono")
 								$photographer = "Scott Simono";
-							else if ($page_name == "grants" || $page_name == "grants-spanish" || $page_name == "grants-english")
+							else if ($page_name == "grants" || $page_name == "grants-spanish" || $page_name == "grants-english" || $page_name == "grad-students")
 								$photographer = "Debra Valov";
 							else
 								$photographer = "Ana Penny";
